@@ -1,11 +1,11 @@
 
 f=aaaaaa.py
 
-run : 
+prun : 
 	./${f}
 
-r_run : 
-	rs ${f}	
+rrun : 
+	Rscript ${f}	
 
 ch : 
 	chmod 744 ${f}
